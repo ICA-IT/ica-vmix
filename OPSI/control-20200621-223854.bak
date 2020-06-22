@@ -1,6 +1,7 @@
 [Package]
 version: 1
 depends: 
+incremental: False
 
 [Product]
 type: localboot
@@ -8,6 +9,7 @@ id: ica-vmix
 name: ICA-vMix
 description: vMix Video mixer and streamer application
 advice: 
+
 version: 23.0.0.57
 priority: 0
 licenseRequired: False
@@ -22,7 +24,7 @@ userLoginScript:
 
 [ProductDependency]
 action: setup
-requiredProduct: ica-dotnet3
+requiredProduct: ica-firefox
 requiredStatus: installed
 requirementType: before
 

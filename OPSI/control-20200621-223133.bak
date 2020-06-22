@@ -20,15 +20,10 @@ onceScript:
 customScript: 
 userLoginScript: 
 
-[ProductDependency]
-action: setup
-requiredProduct: ica-dotnet3
-requiredStatus: installed
-requirementType: before
-
 [Changelog]
 ica-vmix (23.0.0.57-1) stable; urgency=low
 
 	* initial: created by opsi-setup-detector
 
  -- opsisetupdetector.exe <info@uib.de>  6/21/2020 19:41:42
+
